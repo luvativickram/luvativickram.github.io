@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.container {
+    width: 100%;
+    border: 1px solid black;
+}
+
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+}
+
+}
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+
+article {
+    margin-left: 50px;
+    border-left: 1px solid green;
+    margin-right:70px;
+    border-right:1px solid green;
+    padding: 1em;
+    overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+
+<header>
+   <h1>VICKRAM HOTEL</h1>
+   <h2>Offering you the best services</h2>
+   <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: gray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: black;
+}
+
+.active {
+    background-color: green;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="vickram2.html">Home</a></li>
+  <li><a  href="contact.html">Contact</a></li>
+  <li><a  href="about.html">About</a></li>
+</ul>
+  
+</header>
+
+
+<img src="Hotel.jpg" alt="Mountain View" style="width:304px;height:228px;">
+<img src="image.jpeg" alt="Mountain View" style="width:660px;height:228px;">
+<img src="b1.jpg" alt="Mountain View" style="width:304px;height:228px;">
+<hr>
+
+  <h1>WELCOME TO THE VICKRAM HOTEL</h1>
+  <p>The VICKRAM Hotel is a contemporary modestly-styled hotel set up in the outskirts of Nairobi. The Hotel is designed to accommodate both local and International Guests from the Business class traveller to the sophisticated Holiday maker.It is 18 km from the City centre and has a total of 150 rooms of different categories and offers a wide variety of services including conferences, accommodation and an ultramodern Gym. We pride in our staff whose service will exceed your expectation and we provide the best security to all our guests.All are welcome.</p>
+  
+  <h1>ROOMS</h1>
+<p>Whether you're with us for leisure, business, a conference, a well-earned break or a big occasion, travelling light or with the whole family in tow, we have everything you need for a relaxing, comfortable stay.
+
+You can choose a Standard room or the recently opened North wing with our Superior, Deluxe or Executive rooms, depending on your needs and budget. All of our rooms give you a more informal, spacious and welcoming feel.</p>
+<hr>
+<h1>MEETINGS AND EVENTS</h1>
+<p>With over 15 well equipped meeting rooms and a huge choice of sizes and a dedicated meetings and events team on ground, we offer some of the best event facilities around our location. 
+We are perfectly placed if you're bringing people in from around the country or overseas. Amenities include air conditioning and free high-speed wireless internet.
+</p>
+<hr>
+<h1>DINING</h1>
+<p>Residents at VICKRAM hotel need not leave the hotel to experience different cuisines in other parts of the town.
+Mountain restaurant is open from 6.00am - Midnight.
+
+Our meals vary from the Buffet to A'lacarte.Other array of Cuisines served include Continental, African Dishes, Indian Cuisine and Live Chinese station 
+Specialty: Vegetarians and tailor made special diets.</p>
+<hr>
+<h1>SPECIAL OFFERS</h1>
+<p>We have various special offers:
+Booking a room for accommodation,events,meetings or conferences guarantees you less payment.We also give our customers discounted rates during the festive seasons.</p>
+<hr>
+
+
+<div>
+<a href="https://www.facebook.com/">
+<img src="facebook.jpg" alt="Mountain View" style="width:50px;height:50px;">
+<a href="https://www.twitter.com/">
+<img src="twitter.jpg" alt="Mountain View" style="width:50px;height:50px;">
+<a href="https://www.instagram.com/">
+<img src="instagram.jpeg" alt="Mountain View" style="width:65px;height:50px;">
+  </div>
+
+
+<footer> 2018 VICKRAM Hotel, All Rights Reserved  Email Address: vickramhotel@yahoo.com
+
+Developed by Luvati</footer>
+
+</div>
+
+</body>
+</html>
