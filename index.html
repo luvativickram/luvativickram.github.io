@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>drop down menu</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.mini.css">
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<style type="text/css">
+		.dropbtn{
+			background-color:#641e16;
+			color:white;
+			padding:20px;
+			font-size: 23px;
+				border: none;
+			}
+			.dropdown-content a:hover{
+				background-color:#4c084e;
+			}
+			.dropdown:hover .dropdown-content{
+				display:inline;
+				}
+				.dropdown:hover .dropbtn{
+					background-color: #3e8e41;
+				}
+				.dropdown-content a{
+					color:black;
+					padding: 14px 18px;
+					text-decoration: none;
+	     			display:block;
+		}
+		.dropdown-content{
+			display:none;
+			position: absolute;
+			background-color:#f1f1f1;
+			min-width: 200px;
+			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 1;
+		}
+		.dropdown{
+			position:relative;
+			display: inline-block;
+		}
+	</style>
+</head>
+<body>
+
+<div class="dropdown">
+	<button class="dropbtn">MEAL TIME</button>
+	<div class="dropdown-content">
+		<a href="#">HOME</a>
+		<a href="#">ABOUTUS</a>
+		<a href="#">CONTACTUS</a>
+	</DIV>
+</body>
+</html>
